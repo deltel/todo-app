@@ -1,7 +1,7 @@
 # Todo App  
   
 ### Create Database  
-use <db-name>  
+use *db-name*  
 
 ### Creat User  
 #### No roles assigned  
@@ -15,10 +15,10 @@ db.createUser({
 db.getUsers()
 
 ### Query Database  
-db.<db-name>s.find({})
+db.*db-name*s.find({})
 
 ### Remove Item from Database  
-db.<db-name>s.remove({ "<key>": "<value>" })
+db.*db-name*s.remove({ "*key*": "*value*" })
 
 ### Start App  
 npm i  
